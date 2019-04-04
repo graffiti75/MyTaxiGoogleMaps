@@ -1,0 +1,39 @@
+<resources>
+    <!-- Application -->
+
+    <string name="app_name">MyTaxiTest</string>
+    <string name="open_task1">Open Task 1</string>
+    <string name="open_task2">Open Task 2</string>
+    <string name="task1">Task 1</string>
+    <string name="task2">Task 2</string>
+
+    <!-- Adapter -->
+
+    <string name="adapter_id">Id: </string>
+    <string name="adapter_lat">Lat: </string>
+    <string name="adapter_lon">Lon: </string>
+    <string name="adapter_fleet_type">Fleet Type: </string>
+
+    <!-- Dialog -->
+
+    <string name="dialog_loading">Loading…</string>
+    <string name="network_error_dialog_title">Error</string>
+    <string name="network_error_dialog_message">There is no Network connection. Please try again later.</string>
+
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_no">No</string>
+    <string name="empty_list">Empty list</string>
+
+    <!-- Maps -->
+
+    <string name="normal_map">Normal Map</string>
+    <string name="hybrid_map">Hybrid Map</string>
+    <string name="satellite_map">Satellite Map</string>
+    <string name="terrain_map">Terrain Map</string>
+
+    <string name="lat_long_snippet">Lat: %1$.5f, Long: %2$.5f</string>
+    <string name="dropped_pin">Dropped Pin</string>
+    <string name="poi">poi</string>
+</resources>
