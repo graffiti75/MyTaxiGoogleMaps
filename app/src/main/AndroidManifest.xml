@@ -47,5 +47,9 @@
             android:name=".view.activity.Task2Activity"
             android:parentActivityName=".view.activity.MainActivity"
             android:label="@string/task2"/>
+
+        <activity
+            android:name=".view.activity.test.TestTask1Activity"
+            android:label="@string/task1_text" />
     </application>
 </manifest>

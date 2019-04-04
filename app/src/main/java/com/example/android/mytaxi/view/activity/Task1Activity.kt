@@ -100,9 +100,7 @@ class Task1Activity : AppCompatActivity() {
             mAdapter = VehicleDataAdapter(mActivity, list)
             val layoutManager = LinearLayoutManager(mActivity)
             mRecyclerView = findViewById(R.id.id_activity_task1__recycler_view)
-//            R.id.id_activity_task1__recycler_view
             mRecyclerView.layoutManager = layoutManager
-//            mRecyclerView.itemAnimator = DefaultItemAnimator()
             mRecyclerView.adapter = mAdapter
             mRecyclerView.addItemDecoration(DividerItemDecoration(mActivity, DividerItemDecoration.VERTICAL))
             mProgress.dismiss()
